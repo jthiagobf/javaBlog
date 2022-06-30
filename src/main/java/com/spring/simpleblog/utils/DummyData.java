@@ -13,6 +13,8 @@ import org.springframework.stereotype.Component;
 import com.spring.simpleblog.model.Post;
 import com.spring.simpleblog.repository.SimpleblogRepository;
 
+import javax.annotation.PostConstruct;
+
 @Component
 public class DummyData {
 	
